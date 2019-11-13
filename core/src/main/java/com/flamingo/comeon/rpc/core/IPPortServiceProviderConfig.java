@@ -6,4 +6,8 @@ public class IPPortServiceProviderConfig implements ServiceProviderConfig {
     public IPPortServiceProviderConfig(int port) {
         this.port = port;
     }
+
+    public int getPort() {
+        return port;
+    }
 }

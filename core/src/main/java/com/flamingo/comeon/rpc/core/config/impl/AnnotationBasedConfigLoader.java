@@ -51,6 +51,7 @@ public class AnnotationBasedConfigLoader implements ConfigLoader {
                 }
             }
         }
+        return null;
     }
 
     private Set<Class<?>> findClassesUnderPackages(String[] scanningPackages) {
